@@ -42,7 +42,7 @@ body {
 
 .button{
 	    position: relative;
-	    left: 560px;
+	    left: 575px;
 	    margin-top: 40px;
 	    float:left;
 	    display: inline-block;
@@ -86,11 +86,44 @@ body {
 	float: left;
 }
 #center {
-	width: 600px;
-	height: auto;
+	width: 750px;
+	height: 500px;
 	float: left;
+	background-image: url("../images/diary_book1.png");
+	background-repeat: no-repeat;
 }
 #center img {
 	width: 700px;
 	height:500px;
 }
+
+#center #text1 {
+	position: absolute;
+	top: 200px;
+	left: 360px;
+	float: left;
+	height:350px;
+	width: 260px;
+	font-size: 18pt;
+	font-family: KaiTi, SimSun;
+	overflow: hidden;
+	border-width: 0px;
+	background: transparent;
+	outline: none;
+}
+#center #text2 {
+	position: absolute;
+	top: 200px;
+	left: 680px;	
+	float: left;
+	height:350px;
+	width: 260px;
+	font-size: 18pt;
+	font-family: KaiTi, SimSun;
+	overflow: hidden;
+	border-width: 0px;
+	background: transparent;
+	outline: none;
+}
+
+
